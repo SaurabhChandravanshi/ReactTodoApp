@@ -1,17 +1,11 @@
 {
   "hosting": {
     "public": "build",
-    "site":"todoawesome",
+    "site":"srctodoapp",
     "ignore": [
       "firebase.json",
       "**/.*",
       "**/node_modules/**"
-    ],
-    "rewrites": [
-      {
-        "source": "**",
-        "destination": "/index.html"
-      }
     ]
   }
 }
